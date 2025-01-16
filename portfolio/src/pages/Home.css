@@ -1,0 +1,15 @@
+/* src/pages/Home.css */
+
+.container {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+  }
+
+.profile-image {
+    display: flex;
+    float: right;
+    width: 30%; /* Ajusta el tamaño según lo necesites */
+    height: auto; /* Mantén la proporción de la imagen */
+    margin: -250px 130px 50px 0; /* Margen negativo para mover hacia arriba */
+}
