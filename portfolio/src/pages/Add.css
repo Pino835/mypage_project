@@ -1,0 +1,10 @@
+/* src/pages/Add.css */
+
+.add-container {
+    text-align: center;
+  }
+
+ul {
+    display: inline-block;
+    text-align: left;
+  }

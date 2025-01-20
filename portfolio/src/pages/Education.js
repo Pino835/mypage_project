@@ -3,12 +3,28 @@ import './Education.css'; // Si necesitas estilos específicos para esta página
 
 const Education = () => {
   return (
-    <div className="container">
+    <div className="education-container">
       <h1>Education</h1>
-      <p>
-        I am a passionate software engineer with a focus on building scalable and user-friendly applications.
-        My journey in technology started with a love for problem-solving and creating meaningful solutions.
-      </p>
+      <ul>
+        <li>
+          Bachelor's degree of Software Development
+          <p>
+            Jan 2023 - April 2024
+          </p>
+          <p>
+            Universidad Latinoamericana de Ciencia y Tecnología
+          </p>
+        </li>
+        <li>
+          Bachelor of Computer Engineering
+          <p>
+            Jan 2020 - May 2023
+          </p>
+          <p>
+            Universidad Latinoamericana de Ciencia y Tecnología
+          </p>  
+        </li>
+      </ul>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import profileImage from '../assets/images/profile.jpg';
 const Home = () => {
   return (
     <div>
-      <div className="container">
+      <div className="home-container">
         <h1>Juan Diego Pino Torres</h1>
         <h2>Software Engineer</h2>
         <p>
