@@ -1,15 +1,22 @@
 /* src/pages/Home.css */
 
-.home-container {
-    padding: 20px;
-    text-align: center;
-    width: 50%;
-  }
+/* En un archivo global o principal */
+.main-content {
+  background-color: #003366;
+  color: white;
+  margin-left: 240px; /* Mueve el contenido para que no quede detrás del header */
+  padding: 20px;
+}
 
-.profile-image {
-    display: flex;
-    float: right;
-    width: 30%; /* Ajusta el tamaño según lo necesites */
-    height: auto; /* Mantén la proporción de la imagen */
-    margin: -250px 130px 50px 0; /* Margen negativo para mover hacia arriba */
+.home-container {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.home-container img {
+    width: 45%; /* Ajusta el tamaño según lo necesites */
+}
+
+.about-container {
+  padding-bottom: 40px;
 }
