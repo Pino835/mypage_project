@@ -1,11 +1,14 @@
 // src/pages/Home.js
 import React from 'react';
 import './Home.css';
-import profileImage from '../assets/images/profile.jpg';
+import profileImage from '../assets/images/profile.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub as fabGithub, faLinkedin as fabLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   return (
-    <div className='main-content'>
+    <div id='main' className='main-content'>
 
       <div id='home' className="home-container">
         <h1>Juan Diego Pino Torres</h1>
@@ -21,25 +24,45 @@ const Home = () => {
           and technological innovation. My goal is to grow as a Software Developer, contribute to challenging projects,
           and refine my expertise while expanding my experience in the field.
         </p>
-      </div>
-
-      <div id='skill' className="skill-container">
         <h1>Skills</h1>
         <ul>
           <li>
-            Programming languages: HTML, CSS, JavaScript, Python
+            Programming languages:
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
           </li>
           <li>
-            Frameworks and tools: Django, React, .NET 
+            Frameworks and tools:
+            <ul>
+              <li>Django</li>
+              <li>React</li>
+              <li>.NET</li>
+            </ul>
           </li>
           <li>
-            Operating systems: Linux, Windows
+            Operating systems:
+            <ul>
+              <li>Linux</li>
+              <li>Windows</li>
+            </ul>
           </li>
           <li>
-            Cybersecurity software: Nessus, Burp Suite 
+            Cybersecurity software:
+            <ul>
+              <li>Nessus</li>
+              <li>Burp Suite</li>
+            </ul>
           </li>
           <li>
-            Others: Networks, Cybersecurity 
+            Others:
+            <ul>
+              <li>Networks</li>
+              <li>Cybersecurity</li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -107,10 +130,10 @@ const Home = () => {
       <div id='contact' className="contact-container">
         <h1>Contact</h1>
         <ul>
-          <li>(+506) 8413-3753</li>
-          <li>pinoto2002@gmail.com</li>
-          <li>www.linkedin.com/in/juan-diego-pino-torres-b80856322</li>
-          <li>www.github.com/Pino835</li>
+          <li><FontAwesomeIcon icon={faPhone} /> (+506) 8413-3753</li>
+          <li><FontAwesomeIcon icon={faEnvelope} /> pinoto2002@gmail.com</li>
+          <li><a href="www.linkedin.com/in/juan-diego-pino-torres-b80856322" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabLinkedin} /> LinkedIn</a></li>
+          <li><a href="www.github.com/Pino835" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabGithub} /> GitHub</a></li>
         </ul>
       </div>
 
