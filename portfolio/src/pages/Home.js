@@ -130,7 +130,7 @@ const Home = () => {
 
       <div id='add' className="add-container">
 
-        <h1>Add</h1>
+        <h1>Additional Information</h1>
         <ul>
           <li>Languages:
             <ul>
