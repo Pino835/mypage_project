@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHome, faUser, faBriefcase, faGraduationCap, faInfoCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHome, faUser, faTools, faBriefcase, faGraduationCap, faInfoCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,12 +31,13 @@ const Header = () => {
         <h1>Portfolio</h1>
         <nav>
           <ul className="vertical-nav-list">
-            <li><a href="#main" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faHome} /> Home</a></li>
-            <li><a href="#about" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faUser} /> About</a></li>
-            <li><a href="#work" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faBriefcase} /> Work Experience</a></li>
-            <li><a href="#education" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faGraduationCap} /> Education</a></li>
-            <li><a href="#add" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faInfoCircle} /> Additional Info</a></li>
-            <li><a href="#contact" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faEnvelope} /> Contact</a></li>
+            <li><a href="#main" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faHome} /> Inicio</a></li>
+            <li><a href="#about" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faUser} /> Sobre mí</a></li>
+            <li><a href="#skill" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faTools} /> Habilidades Técnicas</a></li>
+            <li><a href="#work" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faBriefcase} /> Experiencia</a></li>
+            <li><a href="#education" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faGraduationCap} /> Educación</a></li>
+            <li><a href="#add" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faInfoCircle} /> Datos Adicionales</a></li>
+            <li><a href="#contact" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faEnvelope} /> Contacto</a></li>
           </ul>
         </nav>
       </header>

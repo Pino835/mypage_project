@@ -13,25 +13,30 @@ const Home = () => {
       <div id='home' className="home-container">
 
         <h1>Juan Diego Pino Torres</h1>
-        <h2>Software Engineer</h2>
+        <h2>Ingeniero Informático</h2>
         <img src={profileImage} alt="Profile"/>
 
       </div>
 
       <div id='about' className="about-container">
 
-        <h1>Profile</h1>
+        <h1>Perfil</h1>
         <p>
-          Professional at the beginning of my career, focused on continuous learning and developing technological
-          solutions. During my training, I gained skills in web development, database analysis, project management,
-          and technological innovation. My goal is to grow as a Software Developer, contribute to challenging projects,
-          and refine my expertise while expanding my experience in the field.
+        Profesional que está iniciando su carrera, enfocado en el aprendizaje continuo y el desarrollo de soluciones
+        tecnológicas. Durante mi formación, adquirí habilidades en desarrollo web, análisis de bases de datos,
+        gestión de proyectos e innovación tecnológica. Mi objetivo es crecer como profesional en el área de
+        informática, contribuir a proyectos desafiantes y refinar mis conocimientos mientras amplío mi experiencia en
+        el campo.
         </p>
 
-        <h1>Skills</h1>
+      </div>
+
+      <div id='skill' className="skill-container">
+
+      <h1>Habilidades Técnicas</h1>
         <ul>
           <li>
-            Programming languages:
+            Lenguajes de Proogramación:
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -40,7 +45,7 @@ const Home = () => {
             </ul>
           </li>
           <li>
-            Frameworks and tools:
+            Frameworks y herramientas:
             <ul>
               <li>Django</li>
               <li>React</li>
@@ -48,57 +53,63 @@ const Home = () => {
             </ul>
           </li>
           <li>
-            Operating systems:
+            Sistemas Operativos:
             <ul>
               <li>Linux</li>
               <li>Windows</li>
             </ul>
           </li>
           <li>
-            Cybersecurity software:
+            Software Ciberseguridad:
             <ul>
               <li>Nessus</li>
               <li>Burp Suite</li>
             </ul>
           </li>
           <li>
-            Others:
+            Otros:
             <ul>
-              <li>Networks</li>
-              <li>Cybersecurity</li>
+              <li>Redes</li>
+              <li>Ciberseguridad</li>
             </ul>
           </li>
         </ul>
 
         <a href="/files/resume.pdf" download="My_Resume.pdf">
-          <FontAwesomeIcon icon={faDownload} /> Download Resume
+          <FontAwesomeIcon icon={faDownload} /> Descargar CV
         </a>
 
       </div>
 
       <div id='work' className="work-container">
 
-        <h1>Work</h1>
+        <h1>Experiencia</h1>
         <ul>
           <li>
-            Programmer and Security Analyst Jr - ITCJJ INFORMATION
+              Programador y Analista de Seguridad Jr, ITCJJ INFORMATION
             <ul>
-              <li>Sep 2023 - Present</li>
+              <li>
+                Set 2023 - Presente
+              </li>
               <p>
-                Development of a project on a web page using Django that speeds up the work process to generate
-                reports and that the client has that page available to review those reports and avoid excessive use
-                of email. Collaborate in audits where vulnerabilities within the clients' networks are searched through scans
-                using a security software.
+                Desarrollo de un proyecto sobre una página web utilizando Django que agiliza el proceso de trabajo
+                para generar reportes y que el cliente tenga esa página disponible para revisar dichos reportes y
+                evitar el uso excesivo del correo electrónico.
+                Colaboración auditorías donde se buscan vulnerabilidades dentro de las redes de los clientes a
+                través de escaneos utilizando un software de seguridad, usando herramientas como Nessus y
+                OSINT.
               </p>
             </ul>
           </li>
           <li>
-            Programmer Jr - Global Teams International
+            Programador Jr, Global Teams International
             <ul>
-              <li>January 2022 - Aug 2022</li>
+              <li>
+                Ene 2022 - Ago 2022
+                </li>
               <p>
-                I was part of the development of a website about a records management system for a client using
-                the SCRUM methodology and working with tools such as Visual Studio, C# and SQL Server.
+              Desarrollo de un sitio web sobre un sistema de gestión de registros para un cliente utilizando la
+              metodología SCRUM y trabajando con herramientas como Visual Studio, C# y SQL Server.
               </p>
             </ul>
           </li>
@@ -108,19 +119,19 @@ const Home = () => {
 
       <div id='education' className="education-container">
 
-        <h1>Education</h1>
+        <h1>Educación</h1>
         <ul>
           <li>
-            Bachelor's degree of Software Development
+            Licenciatura en Desarrollo de Software
             <ul>
-              <li>Jan 2023 - April 2024</li>
+              <li>Ene 2023 -  Abr 2024</li>
               <li>Universidad Latinoamericana de Ciencia y Tecnología</li>
             </ul>
           </li>
           <li>
-            Bachelor of Computer Engineering
+            Bachillerato en Ingeniería Informática
             <ul>
-              <li>Jan 2020 - May 2023</li>
+              <li>Ene 2020 - May 2023</li>
               <li>Universidad Latinoamericana de Ciencia y Tecnología</li>
             </ul> 
           </li>
@@ -130,18 +141,23 @@ const Home = () => {
 
       <div id='add' className="add-container">
 
-        <h1>Additional Information</h1>
+        <h1>Datos Adicionales</h1>
         <ul>
-          <li>Languages:
+          <li>Idiomas:
             <ul>
-              <li>Spanish (native)</li>
-              <li>English</li>
+              <li>Español (native)</li>
+              <li>Inglés (B2)</li>
             </ul>
           </li>
-          <li>Certifications:
+          <li>Certificaciones:
             <ul>
-              <li>HTML5 and CSS3 Web Design (ULACIT)</li>
-              <li>Web Architecture (ULACIT)</li>
+              <li>Diseño Web HTML5 y CSS3 (ULACIT)</li>
+              <li>Arquitectura Web (ULACIT)</li>
+              <li>Responsive Web Design (FreeCodeCamp)</li>
+              <li>Python esencial (LinkedIn)</li>
+              <li>SQL Server 2022 para desarrolladores esenciales (LinkedIn)</li>
+              <li>HTML esencial (LinkedIn)</li>
+              <li>CSS Esencial (LinkedIn)</li>
             </ul>
           </li>
         </ul>
@@ -150,7 +166,7 @@ const Home = () => {
 
       <div id='contact' className="contact-container">
 
-        <h1>Contact</h1>
+        <h1>Contacto</h1>
         <ul>
           <li><FontAwesomeIcon icon={faEnvelope} /> pinoto2002@gmail.com</li>
           <li><a href="https://www.linkedin.com/in/juan-diego-pino-torres-b80856322" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabLinkedin} /> LinkedIn</a></li>

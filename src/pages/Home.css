@@ -21,7 +21,7 @@
 
 .about-container {
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 550px;
 }
 
 .about-container p {
@@ -30,24 +30,29 @@
   margin-bottom: 20px;
 }
 
-.about-container ul {
+.skill-container {
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+
+.skill-container ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   list-style-type: disc;
   padding-left: 20px;
 }
 
-.about-container ul li {
+.skill-container ul li {
   margin-bottom: 10px;
   line-height: 1.6;
 }
 
-.about-container ul li ul {
+.skill-container ul li ul {
   list-style-type: circle; 
   display: block;
 }
 
-.about-container a{
+.skill-container a{
   text-decoration: none;
   color: black;
   background-color: white;
@@ -55,7 +60,7 @@
   border-radius: 5%;
 }
 
-.about-container a:hover{
+.skill-container a:hover{
   text-decoration: none;
   color: white;
   background-color: black;
@@ -137,23 +142,26 @@
     width: 90%; /* Ajusta el tamaño según lo necesites */
   }
   .about-container{
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 400px;
+  }
+  .skill-container {
+    padding-top: 30px;
   }
   .work-container {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 175px;
   }
   .education-container {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 400px;
   }
   .add-container {
-    padding-top: 20px;
-    padding-bottom: 450px;
+    padding-top: 30px;
+    padding-bottom: 300px;
   }
   .contact-container {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 500px;
   }
 }
