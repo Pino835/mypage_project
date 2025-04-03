@@ -1,0 +1,117 @@
+/* src/pages/Home.css */
+
+/* En un archivo global o principal */
+.main-content {
+  font-family: 'Montserrat', 'Roboto', 'Open Sans', sans-serif;
+  background-color: #003366;
+  color: white;
+  margin-left: 240px; /* Mueve el contenido para que no quede detrás del header */
+  padding: 20px;
+}
+
+.home-container {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.home-container img {
+    width: 45%; /* Ajusta el tamaño según lo necesites */
+    border-radius: 8px; /* Opcional: esquinas redondeadas */
+}
+
+.about-container {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.about-container p {
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-container ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-container ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.about-container ul li ul {
+  list-style-type: circle; 
+  display: block;
+}
+
+.about-container a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.about-container a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.work-container {
+  padding-top: 10px;
+  padding-bottom: 350px;
+}
+
+.work-container ul li ul {
+  list-style-type: circle; 
+  margin: 10px;
+}
+
+.work-container ul li ul p{
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.education-container {
+  padding-top: 10px;
+  padding-bottom: 450px;
+}
+
+.education-container ul li ul {
+  list-style-type: circle; 
+  margin: 10px;
+}
+
+.education-container ul li ul li{
+  list-style-type: circle; 
+  margin: 10px;
+}
+
+.add-container {
+  padding-top: 10px;
+  padding-bottom: 500px;
+}
+
+.add-container ul li{
+  margin: 10px;
+}
+
+.contact-container {
+  padding-top: 10px;
+  padding-bottom: 540px;
+}
+
+.contact-container ul li{ 
+  margin: 10px;
+}
+
+.contact-container a{
+  text-decoration: none;
+  color: white;
+}
