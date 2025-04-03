@@ -115,3 +115,24 @@
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 768px) { /* Para pantallas de celular */
+  .main-content {
+    margin-left: 0; /* Mueve el contenido para que no quede detrás del header */
+  }
+  .about-container{
+    padding-bottom: 0;
+  }
+  .work-container {
+    padding-bottom: 0;
+  }
+  .education-container {
+    padding-bottom: 0;
+  }
+  .add-container {
+    padding-bottom: 0;
+  }
+  .contact-container {
+    padding-bottom: 0;
+  }
+}

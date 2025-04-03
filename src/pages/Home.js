@@ -3,7 +3,7 @@ import React from 'react';
 import './Home.css';
 import profileImage from '../assets/images/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faGithub as fabGithub, faLinkedin as fabLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
@@ -152,7 +152,6 @@ const Home = () => {
 
         <h1>Contact</h1>
         <ul>
-          <li><FontAwesomeIcon icon={faPhone} /> (+506) 8413-3753</li>
           <li><FontAwesomeIcon icon={faEnvelope} /> pinoto2002@gmail.com</li>
           <li><a href="https://www.linkedin.com/in/juan-diego-pino-torres-b80856322" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabLinkedin} /> LinkedIn</a></li>
           <li><a href="https://www.github.com/Pino835" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabGithub} /> GitHub</a></li>

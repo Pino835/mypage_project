@@ -43,3 +43,9 @@
   background-color: #61dafb;
   color: #282c34;
 }
+
+@media (max-width: 768px) { /* Para pantallas de celular */
+  .vertical-header {
+    display: none;
+  }
+}
