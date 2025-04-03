@@ -28,7 +28,7 @@ const Header = () => {
       </button>
 
       <header ref={menuRef} className={`vertical-header ${menuOpen ? 'open' : ''}`}>
-        <h1>Portfolio</h1>
+        <h1>Portafolio</h1>
         <nav>
           <ul className="vertical-nav-list">
             <li><a href="#main" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faHome} /> Inicio</a></li>
