@@ -1,33 +1,49 @@
-/* Header.css */
+/* Contenedor general */
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Menú lateral en pantallas grandes */
 .vertical-header {
   font-family: 'Montserrat', 'Roboto', 'Open Sans', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   background-color: #001a33;
   color: white;
   padding: 20px;
-  height: 100vh; /* Ocupa toda la altura de la ventana */
-  width: 200px; /* Ancho fijo para el menú */
-  position: fixed; /* Fija el header en la pantalla */
+  height: 100vh;
+  width: 200px;
+  position: fixed;
   top: 0;
   left: 0;
+  transition: transform 0.3s ease-in-out;
 }
 
-.vertical-header h1 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+/* Estilos del botón de hamburguesa */
+.menu-button {
+  display: none; /* Oculto en pantallas grandes */
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
+/* Menú de navegación */
 .vertical-nav-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 100%; /* Para alinear los enlaces al ancho del menú */
 }
 
 .vertical-nav-list li {
-  margin: 15px 0; /* Espaciado entre los enlaces */
+  margin: 15px 0;
 }
 
 .vertical-nav-list a {
@@ -35,7 +51,8 @@
   color: white;
   font-size: 1rem;
   padding: 10px;
-  display: block; /* Hace clickeable todo el ancho del enlace */
+  display: flex;
+  align-items: center;
   transition: background-color 0.3s;
 }
 
@@ -44,8 +61,55 @@
   color: #282c34;
 }
 
-@media (max-width: 768px) { /* Para pantallas de celular */
+.vertical-nav-list a svg {
+  margin-right: 10px;
+}
+
+/* RESPONSIVE: Mostrar dropdown en móviles */
+@media (max-width: 768px) {
+  .menu-button {
+    display: block; /* Asegura que el botón sea visible */
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100; /* Asegura que esté sobre otros elementos */
+  }
+
   .vertical-header {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #001a33;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+    z-index: 99; /* Debe estar por debajo del botón */
+  }
+
+  .vertical-header h1{
+    text-align: center;
+  }
+
+  .vertical-header.open {
+    transform: translateY(0);
+  }
+
+  .vertical-nav-list {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .vertical-nav-list a {
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
   }
 }
+

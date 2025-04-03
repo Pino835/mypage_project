@@ -116,23 +116,44 @@
   color: white;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-container {
+    padding-bottom: 150px;
+  }
+  .home-container img {
+    width: 90%; /* Ajusta el tamaño según lo necesites */
+  }
+}
+
 @media (max-width: 768px) { /* Para pantallas de celular */
   .main-content {
     margin-left: 0; /* Mueve el contenido para que no quede detrás del header */
   }
+  .home-container {
+    padding-top: 20px;
+    padding-bottom: 150px;
+  }
+  .home-container img {
+    width: 90%; /* Ajusta el tamaño según lo necesites */
+  }
   .about-container{
-    padding-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 100px;
   }
   .work-container {
-    padding-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 175px;
   }
   .education-container {
-    padding-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 400px;
   }
   .add-container {
-    padding-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 450px;
   }
   .contact-container {
-    padding-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 500px;
   }
 }
