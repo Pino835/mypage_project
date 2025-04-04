@@ -12,13 +12,19 @@ const Home = () => {
 
       <div id='home' className="home-container">
 
+        <hr/>
+
         <h1>Juan Diego Pino Torres</h1>
         <h2>Ingeniero Informático</h2>
         <img src={profileImage} alt="Profile"/>
 
       </div>
 
+      <hr/>
+
       <div id='about' className="about-container">
+
+        <hr/>
 
         <h1>Perfil</h1>
         <p>
@@ -31,7 +37,11 @@ const Home = () => {
 
       </div>
 
+      <hr/>
+
       <div id='skill' className="skill-container">
+
+      <hr/>
 
       <h1>Habilidades Técnicas</h1>
         <ul>
@@ -81,7 +91,11 @@ const Home = () => {
 
       </div>
 
+      <hr/>
+
       <div id='work' className="work-container">
+
+        <hr/>
 
         <h1>Experiencia</h1>
         <ul>
@@ -117,7 +131,11 @@ const Home = () => {
 
       </div>
 
+      <hr/>
+
       <div id='education' className="education-container">
+
+        <hr/>
 
         <h1>Educación</h1>
         <ul>
@@ -139,7 +157,11 @@ const Home = () => {
 
       </div>
 
+      <hr/>
+
       <div id='add' className="add-container">
+
+        <hr/>
 
         <h1>Datos Adicionales</h1>
         <ul>
@@ -164,7 +186,11 @@ const Home = () => {
 
       </div>
 
+      <hr/>
+
       <div id='contact' className="contact-container">
+
+        <hr/>
 
         <h1>Contacto</h1>
         <ul>
@@ -174,6 +200,8 @@ const Home = () => {
         </ul>
 
       </div>
+
+      <hr/>
 
     </div>
 
