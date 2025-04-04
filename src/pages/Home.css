@@ -11,7 +11,7 @@
 
 .home-container {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .home-container img {
@@ -32,7 +32,7 @@
 
 .skill-container {
   padding-top: 10px;
-  padding-bottom: 180px;
+  padding-bottom: 190px;
 }
 
 .skill-container ul {
@@ -69,7 +69,7 @@
 
 .work-container {
   padding-top: 10px;
-  padding-bottom: 260px;
+  padding-bottom: 270px;
 }
 
 .work-container ul li ul {
@@ -85,7 +85,7 @@
 
 .education-container {
   padding-top: 10px;
-  padding-bottom: 425px;
+  padding-bottom: 430px;
 }
 
 .education-container ul li ul {
@@ -100,7 +100,7 @@
 
 .add-container {
   padding-top: 10px;
-  padding-bottom: 280px;
+  padding-bottom: 290px;
 }
 
 .add-container ul li{
