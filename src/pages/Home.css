@@ -10,8 +10,9 @@
 }
 
 .home-container {
+  font-size: 1.3rem;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
 }
 
 .home-container img {
@@ -20,8 +21,9 @@
 }
 
 .about-container {
+  font-size: 1.3rem;
   padding-top: 10px;
-  padding-bottom: 505px;
+  padding-bottom: 420px;
 }
 
 .about-container p {
@@ -31,8 +33,9 @@
 }
 
 .skill-container {
+  font-size: 1.3rem;
   padding-top: 10px;
-  padding-bottom: 190px;
+  padding-bottom: 60px;
 }
 
 .skill-container ul {
@@ -68,8 +71,9 @@
 }
 
 .work-container {
+  font-size: 1.3rem;
   padding-top: 10px;
-  padding-bottom: 270px;
+  padding-bottom: 120px;
 }
 
 .work-container ul li ul {
@@ -84,8 +88,9 @@
 }
 
 .education-container {
+  font-size: 1.3rem;
   padding-top: 10px;
-  padding-bottom: 430px;
+  padding-bottom: 360px;
 }
 
 .education-container ul li ul {
@@ -99,8 +104,9 @@
 }
 
 .add-container {
+  font-size: 1.3rem;
   padding-top: 10px;
-  padding-bottom: 290px;
+  padding-bottom: 185px;
 }
 
 .add-container ul li{
@@ -108,8 +114,9 @@
 }
 
 .contact-container {
+  font-size: 1.3rem;
   padding-top: 10px;
-  padding-bottom: 510px;
+  padding-bottom: 475px;
 }
 
 .contact-container ul li{ 
@@ -123,28 +130,28 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .home-container {
-    padding-bottom: 115px;
+    padding-bottom: 65px;
   }
   .home-container img {
-    width: 90%; /* Ajusta el tamaño según lo necesites */
+    width: 80%; /* Ajusta el tamaño según lo necesites */
   }
   .about-container{
-    padding-bottom: 360px;
-  }
-  .skill-container {
     padding-bottom: 150px;
   }
+  .skill-container {
+    padding-bottom: 75px;
+  }
   .work-container {
-    padding-bottom: 0;
+    padding-bottom: 75px;
   }
   .education-container {
-    padding-bottom: 390px;
+    padding-bottom: 300px;
   }
   .add-container {
-    padding-bottom: 260px;
+    padding-bottom: 75px;
   }
   .contact-container {
-    padding-bottom: 520px;
+    padding-bottom: 450px;
   }
 }
 
@@ -154,18 +161,18 @@
   }
   .home-container {
     padding-top: 30px;
-    padding-bottom: 115px;
+    padding-bottom: 25px;
   }
   .home-container img {
     width: 90%; /* Ajusta el tamaño según lo necesites */
   }
   .about-container{
     padding-top: 50px;
-    padding-bottom: 290px;
+    padding-bottom: 60px;
   }
   .skill-container {
     padding-top: 50px;
-    padding-bottom: 110px;
+    padding-bottom: 75px;
   }
   .work-container {
     padding-top: 50px;
@@ -173,14 +180,14 @@
   }
   .education-container {
     padding-top: 50px;
-    padding-bottom: 340px;
+    padding-bottom: 220px;
   }
   .add-container {
     padding-top: 50px;
-    padding-bottom: 190px;
+    padding-bottom: 30px;
   }
   .contact-container {
     padding-top: 50px;
-    padding-bottom: 475px;
+    padding-bottom: 415px;
   }
 }
