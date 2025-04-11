@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHome, faUser, faTools, faBriefcase, faGraduationCap, faInfoCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHome, faVideo, faUser, faTools, faBriefcase, faGraduationCap, faInfoCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,6 +33,7 @@ const Header = () => {
         <nav>
           <ul className="vertical-nav-list">
             <li><a href="#main" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faHome} /> Inicio</a></li>
+            <li><a href="#video" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faVideo} /> Video</a></li>
             <li><a href="#about" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faUser} /> Sobre mí</a></li>
             <li><a href="#skill" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faTools} /> Habilidades Técnicas</a></li>
             <li><a href="#work" onClick={() => setMenuOpen(false)}><FontAwesomeIcon icon={faBriefcase} /> Experiencia</a></li>

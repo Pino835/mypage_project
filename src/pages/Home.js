@@ -5,6 +5,7 @@ import profileImage from '../assets/images/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faGithub as fabGithub, faLinkedin as fabLinkedin } from '@fortawesome/free-brands-svg-icons';
+import videoFile from '../assets/video.mp4';
 
 const Home = () => {
   return (
@@ -18,6 +19,22 @@ const Home = () => {
         <h2>Ingeniero Informático</h2>
         <img src={profileImage} alt="Profile"/>
 
+      </div>
+
+      <hr/>
+
+      <div id='video' className='video-container'>
+
+        <hr/>
+
+        <h1>Video</h1>
+
+        <div className="video-wrapper">
+          <video className="center-video" controls>
+            <source src={videoFile} type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
       </div>
 
       <hr/>
