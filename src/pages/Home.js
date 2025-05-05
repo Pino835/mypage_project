@@ -190,6 +190,7 @@ const Home = () => {
           </li>
           <li>Certificaciones:
             <ul>
+            <li>Colegiatura (CPIC)</li>
               <li>Diseño Web HTML5 y CSS3 (ULACIT)</li>
               <li>Arquitectura Web (ULACIT)</li>
               <li>Responsive Web Design (FreeCodeCamp)</li>
