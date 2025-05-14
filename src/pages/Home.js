@@ -77,6 +77,7 @@ const Home = () => {
               <li>Django</li>
               <li>React</li>
               <li>.NET</li>
+              <li>GitHub</li>
             </ul>
           </li>
           <li>
