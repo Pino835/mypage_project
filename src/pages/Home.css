@@ -3,7 +3,7 @@
 /* En un archivo global o principal */
 .main-content {
   font-family: 'Montserrat', 'Roboto', 'Open Sans', sans-serif;
-  background-color: #003366;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   color: white;
   margin-left: 240px; /* Mueve el contenido para que no quede detrás del header */
   padding: 20px;
@@ -143,6 +143,39 @@
 .contact-container a{
   text-decoration: none;
   color: white;
+}
+
+@media (min-width: 1280px) {
+  .home-container {
+    padding-bottom: 35px;
+  }
+  .home-container img {
+    width: 43%; /* Ajusta el tamaño según lo necesites */
+  }
+  .video-container{
+    padding-bottom: 25px;
+  }
+  .center-video {
+    width: 420px;
+  }
+  .about-container{
+    padding-bottom: 670px;
+  }
+  .skill-container {
+    padding-bottom: 275px;
+  }
+  .work-container {
+    padding-bottom: 375px;
+  }
+  .education-container {
+    padding-bottom: 575px;
+  }
+  .add-container {
+    padding-bottom: 375px;
+  }
+  .contact-container {
+    padding-bottom: 675px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
