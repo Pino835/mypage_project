@@ -63,7 +63,7 @@ const Home = () => {
       <h1>Habilidades Técnicas</h1>
         <ul>
           <li>
-            Lenguajes de Proogramación:
+            Lenguajes de Programación:
             <ul>
               <li>HTML</li>
               <li>CSS</li>
