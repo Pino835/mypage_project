@@ -137,7 +137,7 @@ const Home = () => {
             Pasante Programador Jr, Global Teams International
             <ul>
               <li>
-                Ene 2022 - Ago 2022
+                Enero 2022 - Agosto 2022
                 </li>
               <p>
               Desarrollo de un sitio web sobre un sistema de gestión de registros para un cliente utilizando la
