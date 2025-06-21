@@ -118,10 +118,10 @@ const Home = () => {
         <h1>Experiencia</h1>
         <ul>
           <li>
-              Programador y Analista de Seguridad Jr, ITCJJ INFORMATION
+              Técnico en Operaciones Computacionales, ITCJJ INFORMATION
             <ul>
               <li>
-                Set 2023 - Presente
+                Setiembre 2023 - Abril 2025
               </li>
               <p>
                 Desarrollo de un proyecto sobre una página web utilizando Django que agiliza el proceso de trabajo
@@ -134,7 +134,7 @@ const Home = () => {
             </ul>
           </li>
           <li>
-            Programador Jr, Global Teams International
+            Pasante Programador Jr, Global Teams International
             <ul>
               <li>
                 Ene 2022 - Ago 2022
@@ -160,14 +160,14 @@ const Home = () => {
           <li>
             Licenciatura en Desarrollo de Software
             <ul>
-              <li>Ene 2023 -  Abr 2024</li>
+              <li>Enero 2023 -  Abril 2024</li>
               <li>Universidad Latinoamericana de Ciencia y Tecnología</li>
             </ul>
           </li>
           <li>
             Bachillerato en Ingeniería Informática
             <ul>
-              <li>Ene 2020 - May 2023</li>
+              <li>Enero 2020 - Mayo 2023</li>
               <li>Universidad Latinoamericana de Ciencia y Tecnología</li>
             </ul> 
           </li>
