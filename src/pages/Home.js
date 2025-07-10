@@ -75,7 +75,8 @@ const Home = () => {
             Frameworks y herramientas:
             <ul>
               <li>Django</li>
-              <li>React</li>
+              <li>React.js</li>
+              <li>Next.js</li>
               <li>.NET</li>
               <li>GitHub</li>
             </ul>
