@@ -104,7 +104,7 @@ const Home = () => {
           </li>
         </ul>
 
-        <a href="/files/resume.pdf" download="My_Resume.pdf">
+        <a href={`${process.env.PUBLIC_URL}/files/resume.pdf`} download="My_Resume.pdf">
           <FontAwesomeIcon icon={faDownload} /> Descargar CV
         </a>
 
