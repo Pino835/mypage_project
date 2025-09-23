@@ -122,7 +122,7 @@ const Home = () => {
               Técnico en Operaciones Computacionales, ITCJJ INFORMATION
             <ul>
               <li>
-                Setiembre 2023 - Abril 2025
+                Octubre 2023 - Abril 2025
               </li>
               <p>
                 Desarrollo de un proyecto sobre una página web utilizando Django que agiliza el proceso de trabajo
