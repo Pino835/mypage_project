@@ -63,43 +63,48 @@ const Home = () => {
       <h1>Habilidades Técnicas</h1>
         <ul>
           <li>
-            Lenguajes de Programación:
+            Programación y Desarrollo Web:
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
+              <li>HTML y CSS</li>
               <li>Python</li>
             </ul>
           </li>
           <li>
-            Frameworks y herramientas:
+            Bases de datos relacionales:
+            <ul>
+              <li>SQL Server</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </li>
+          <li>
+            Frameworks de desarrollo web:
             <ul>
               <li>Django</li>
               <li>React.js</li>
-              <li>Next.js</li>
               <li>.NET</li>
+            </ul>
+          </li>
+          <li>
+            Control de versiones:
+            <ul>
               <li>GitHub</li>
             </ul>
           </li>
           <li>
-            Sistemas Operativos:
+            Sistemas operativos:
             <ul>
               <li>Linux</li>
               <li>Windows</li>
             </ul>
           </li>
           <li>
-            Software Ciberseguridad:
+            Redes y Ciberseguridad
+          </li>
+          <li>
+            Herramientas de seguridad:
             <ul>
               <li>Nessus</li>
               <li>Burp Suite</li>
-            </ul>
-          </li>
-          <li>
-            Otros:
-            <ul>
-              <li>Redes</li>
-              <li>Ciberseguridad</li>
             </ul>
           </li>
         </ul>
